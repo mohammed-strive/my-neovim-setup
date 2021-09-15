@@ -20,6 +20,9 @@ set clipboard=unnamed
 " Hides buffers instead of closing them
 set hidden
 
+" Enable filetype detection
+filetype on
+
 " === TAB/Space settings === "
 " Insert spaces when TAB is pressed.
 set expandtab
@@ -317,11 +320,11 @@ function! Handle_Win_Enter()
 endfunction
 
 " Editor theme
-set background=dark
+set background=light
 try
-  colorscheme github
+  colorscheme solarized8
 catch
-  colorscheme PaperColor
+  colorscheme vadelma
 endtry
 " ============================================================================ "
 " ===                             KEY MAPPINGS                             === "

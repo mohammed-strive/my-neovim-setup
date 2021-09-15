@@ -23,6 +23,8 @@ call plug#begin('~/.config/nvim/plugged')
 " === Editing Plugins === "
 " Trailing whitespace highlighting & automatic fixing
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'nathanaelkane/vim-indent-guides'
+" Plug 'yggdroot/indentline'
 
 " auto-close plugin
 Plug 'rstacruz/vim-closer'
@@ -71,6 +73,7 @@ Plug 'othree/javascript-libraries-syntax.vim'
 
 " Improved syntax highlighting and indentation
 Plug 'othree/yajs.vim'
+Plug 'godlygeek/tabular'
 
 " Plugin for the nim language..
 Plug 'alaviss/nim.nvim'
@@ -83,6 +86,9 @@ Plug 'tpope/vim-surround'
 " Auto close bracket pairs
 Plug 'jiangmiao/auto-pairs'
 
+" Vim-tags for tag creation and navigation
+Plug 'vim-scripts/taglist.vim'
+
 " === UI === "
 " File explorer
 Plug 'scrooloose/nerdtree'
@@ -92,6 +98,10 @@ Plug 'mhartington/oceanic-next'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'endel/vim-github-colorscheme'
 Plug 'dracula/vim', {'as': 'dracula'}
+Plug 'altercation/vim-colors-solarized'
+Plug 'lifepillar/vim-solarized8'
+Plug 'severij/vadelma'
+Plug 'cocopon/iceberg.vim'
 
 " Customized vim status line
 Plug 'vim-airline/vim-airline'
